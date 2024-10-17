@@ -1,0 +1,16 @@
+#Landing_Image
+{
+    background-color: aqua;
+    width: 50%;
+    float: left;
+}
+#Intro_CTA
+{
+    background-color: blueviolet;
+    width: 50%;
+    float: right;
+}
+.h1
+{
+    text-align: center;
+}
