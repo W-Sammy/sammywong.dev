@@ -1,16 +1,82 @@
 #Landing_Image
 {
-    background-color: aqua;
+    background-color: F8F8F4;
     width: 50%;
     float: left;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+#Landing_Image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 #Intro_CTA
 {
-    background-color: blueviolet;
+    background-color: rgb(247, 247, 229);
     width: 50%;
     float: right;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    
 }
 .h1
 {
     text-align: center;
+}
+.body
+{   
+    margin: 0;
+    padding: 0;
+}
+#Name
+{
+    padding-top: 120px;
+}
+#Name h1
+{
+    margin: auto;
+    font-size: 80px;
+    font-family: 'Raleway';
+    font-weight:bolder;
+    position: relative;
+    border: 2px solid black 0 ;
+}
+#Labels
+{
+    width: 100%;
+    height: 25%;
+    border: 2px ;
+    overflow: visible;
+    border: 2px solid black 0;
+    position: relative;
+    top: -200px;
+}
+#Labels li 
+{
+    margin: 5px 0;
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-style: italic;
+}
+#Labels ul
+{
+    list-style-position: inside;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.Copyright 
+{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
 }
