@@ -28,7 +28,7 @@
         flex-direction: column;
         justify-content: space-between;
         display: flex;
-        
+        vertical-align: baseline;
     }
     body
     {   
