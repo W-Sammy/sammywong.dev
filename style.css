@@ -224,7 +224,17 @@
 }
 .Icons img
 {
-    object-fit:cover;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+
+}
+.Icons img:hover
+{
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.4);
 }
 .Resized
 {
