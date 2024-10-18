@@ -181,7 +181,8 @@
     display: inline-block;
     color: rgba(66, 119, 173, 1);
     font-family: 'Kurale';
-    font-size: 3vw;
+    font-size: 55px;
+    
     cursor: pointer;
     text-decoration: none;
     -webkit-transition-duration: 1s;
@@ -221,6 +222,7 @@
     float: left;
     padding: 2vw;
     list-style: none;
+    
 }
 .Icons img
 {
@@ -228,7 +230,7 @@
     transition-duration: 0.5s;
     -webkit-transition-property: transform;
     transition-property: transform;
-
+    
 }
 .Icons img:hover
 {
@@ -240,6 +242,7 @@
 {
     width: 7vw;
     height: auto;
+    min-width: 100px;
 }
 
 /*Contact Page End*/
