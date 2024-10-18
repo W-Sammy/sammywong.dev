@@ -210,5 +210,26 @@
     width: 35%;
     top: -35vh;
 }
+#Social
+{
+    display: inline-block;
+    position: relative;
+    top: -100px;
+}
+#Social li
+{
+    float: left;
+    padding: 2vw;
+    list-style: none;
+}
+.Icons img
+{
+    object-fit:cover;
+}
+.Resized
+{
+    width: 7vw;
+    height: auto;
+}
 
 /*Contact Page End*/
