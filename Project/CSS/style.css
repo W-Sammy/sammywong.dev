@@ -1,124 +1,124 @@
-#Landing_Image
-{
-    background-color: F8F8F4;
-    width: 50%;
-    float: left;
-    height: 100vh;
-    overflow: hidden;
-    
-}
-#Landing_Image img
-{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-#Intro_CTA
-{
-    background-color: rgb(247, 247, 229);
-    width: 50%;
-    float: right;
-    text-align: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    display: flex;
-    
-}
-h1
-{
-    text-align: center;
-}
-body
-{   
-    margin: 0px;
-    padding: 0px;
-}
-#Name
-{
-    padding-top: 120px;
-    top: 50px;
-    overflow: hidden;
-    position: relative;
-}
-#Name h1
-{
-    margin: auto;
-    font-size: 80px;
-    font-family: 'Raleway';
-    font-weight:bolder;
-    position: relative;
-    border: 2px solid black 0 ;
-}
-#Labels
-{
-    width: 90%;
-    height: 25%;
-    border: 2px solid black 0;
-    overflow: visible;
-    border: 2px solid black 0;
-    position: relative;
-    padding: 0px 10px 0px 10px;
-}
-#Labels li 
-{
-    margin: 5px 0;
-    font-size: 30px;
-    font-family: 'Raleway';
-    font-style: italic;
-}
-#Labels ul
-{
-    list-style-position: inside;
-    display: inline-block;
-    text-align: center;
-    padding: 0px;
-}
-.Copyright 
-{
-    font-size: 20px;
-    position: relative;
-    text-align: center;
-    padding-bottom: 10px;
-}
+/*Landing Page Start*/
+    /*Left Side*/
+    #Landing_Image
+    {
+        background-color: F8F8F4;
+        width: 50%;
+        float: left;
+        height: 100vh;
+        overflow: hidden;
+        
+    }
+    #Landing_Image img
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /*Right Side*/
+    #Intro_CTA
+    {
+        background-color: rgb(247, 247, 229);
+        width: 50%;
+        float: right;
+        text-align: center;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        display: flex;
+        
+    }
+    body
+    {   
+        margin: 0px;
+        padding: 0px;
+    }
+    #Name
+    {
+        padding-top: 120px;
+        top: 50px;
+        overflow: hidden;
+        position: relative;
+    }
+    #Name h1
+    {
+        margin: auto;
+        font-size: 80px;
+        font-family: 'Raleway';
+        font-weight:bolder;
+        position: relative;
+        border: 2px solid black 0 ;
+    }
+    #Labels
+    {
+        width: 90%;
+        height: 25%;
+        border: 2px solid black 0;
+        overflow: visible;
+        border: 2px solid black 0;
+        position: relative;
+        padding: 0px 10px 0px 10px;
+    }
+    #Labels li 
+    {
+        margin: 5px 0;
+        font-size: 30px;
+        font-family: 'Raleway';
+        font-style: italic;
+    }
+    #Labels ul
+    {
+        list-style-position: inside;
+        display: inline-block;
+        text-align: center;
+        padding: 0px;
+    }
+    .Copyright 
+    {
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        padding-bottom: 10px;
+    }
 
-/*Buttons*/
-.Button
-{
-    width: 270px;
-    font-family: 'kurale';
-    font-size: 34px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 65px;
-    text-decoration: none;
-    color: black;
-    background-color: rgba(180, 208, 199, 1);
-    cursor: pointer;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    display: inline-block;
-    position: relative;
-}
-.Button:hover
-{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    background-color: rgba(79, 195, 137, 1);
-    -webkit-transition: background-color 0.3s linear;
-    transition: background-color 0.3s linear;
-}
-#Connect
-{   
-    position: relative;
-    top: -50px;
-}
-#About
-{
-    position: relative;
-    top: -100px;
-}
+    /*Buttons*/
+    .Button
+    {
+        width: 270px;
+        font-family: 'kurale';
+        font-size: 34px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 65px;
+        text-decoration: none;
+        color: black;
+        background-color: rgba(180, 208, 199, 1);
+        cursor: pointer;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        display: inline-block;
+        position: relative;
+    }
+    .Button:hover
+    {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        background-color: rgba(79, 195, 137, 1);
+        -webkit-transition: background-color 0.3s linear;
+        transition: background-color 0.3s linear;
+    }
+    #Connect_Btn
+    {   
+        position: relative;
+        top: -50px;
+    }
+    #About_Btn
+    {
+        position: relative;
+        top: -100px;
+    }
+/*Landing Page End*/
