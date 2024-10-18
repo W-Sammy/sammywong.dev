@@ -27,18 +27,21 @@
     display: flex;
     
 }
-.h1
+h1
 {
     text-align: center;
 }
-.body
+body
 {   
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 #Name
 {
     padding-top: 120px;
+    top: 50px;
+    overflow: hidden;
+    position: relative;
 }
 #Name h1
 {
@@ -51,13 +54,13 @@
 }
 #Labels
 {
-    width: 100%;
+    width: 90%;
     height: 25%;
-    border: 2px ;
+    border: 2px solid black 0;
     overflow: visible;
     border: 2px solid black 0;
     position: relative;
-    top: -200px;
+    padding: 0px 10px 0px 10px;
 }
 #Labels li 
 {
@@ -79,4 +82,43 @@
     position: relative;
     text-align: center;
     padding-bottom: 10px;
+}
+
+/*Buttons*/
+.Button
+{
+    width: 270px;
+    font-family: 'kurale';
+    font-size: 34px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 65px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(180, 208, 199, 1);
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    display: inline-block;
+    position: relative;
+}
+.Button:hover
+{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: rgba(79, 195, 137, 1);
+    -webkit-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+#Connect
+{   
+    position: relative;
+    top: -50px;
+}
+#About
+{
+    position: relative;
+    top: -100px;
 }
