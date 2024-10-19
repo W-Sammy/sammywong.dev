@@ -39,11 +39,17 @@
         display: flex;
         vertical-align: baseline;
     }
-    body
+    body, html
     {   
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
         background-color: rgb(247, 247, 229);
+        overflow-x: hidden;
+    }
+    html
+    {
+        font-size: 100%;
+        -webkit-text-size-adjust: 100%;
     }
     #Name
     {
@@ -136,7 +142,6 @@
     @media screen and (max-width: 600px) {
         #Landing_Image, #Intro_CTA
         {
-            float: none;
             width: 100%;
         }
         #Name
@@ -181,8 +186,15 @@
     @media screen and (min-width: 601px) and (max-width: 1000px){
         #Landing_Image, #Intro_CTA
         {
-            float: none;
             width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #Landing_Image img
+        {
+            width: 100%;
+            display: block;
+            object-fit: cover;
         }
         #Name
         {
@@ -207,8 +219,8 @@
         #Labels li
         {
             font-size: 5vw;
-            padding-left: 2%;
-            padding-right: 2%;
+            margin-left: 2%;
+            margin-right: 2%;
         }
         .Button
         {
