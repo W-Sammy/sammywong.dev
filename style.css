@@ -2,7 +2,6 @@
     /*Left Side*/
     #Landing_Image
     {
-        background-color: F8F8F4;
         width: 50%;
         float: left;
         height: 100vh;
@@ -133,6 +132,37 @@
         position: relative;
         top: -7%;
     }
+    /*Mobile View*/
+    @media screen and (max-width: 768px) {
+        #Landing_Image, #Intro_CTA
+        {
+            float: none;
+            width: 100%;
+        }
+        #Name
+        {
+            padding: 0;
+            top: 5%;
+            overflow:visible;
+        }
+        #Labels
+        {
+            padding: 0;
+            width: 100%;
+            position: relative;
+            top: 5%;
+        }
+        #Labels li
+        {
+            font-size: 25px;
+        }
+        #About_Btn
+        {
+            position: relative;
+            top: 0;
+        }
+    }
+
 /*Landing Page End*/
 /*Contact Page Start*/
 .Container_Card 
