@@ -144,6 +144,13 @@
             padding: 0;
             top: 5%;
             overflow:visible;
+            width: 100%;
+        }
+        #Name h1
+        {
+            font-size: 14vw;
+            margin: 0;
+            text-decoration: underline;
         }
         #Labels
         {
@@ -154,12 +161,21 @@
         }
         #Labels li
         {
-            font-size: 25px;
+            font-size: 6vw;
+        }
+        .Button
+        {
+            font-size: 10vw;
+            width: 100%;
         }
         #About_Btn
         {
             position: relative;
             top: 0;
+        }
+        #Container_Content
+        {
+            width: 100%;
         }
     }
 
