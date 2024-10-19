@@ -54,7 +54,7 @@
         margin: 0;
         padding: 0;
         background-color: rgb(247, 247, 229);
-        overflow-x: hidden;
+        overflow: auto;
         height: 100%;
     }
     html
@@ -261,6 +261,7 @@
             font-size: 6vw;
             width: 90%;
             position: relative;
+            flex-direction: column;
         }
         #About_Btn
         {
