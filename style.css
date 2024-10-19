@@ -24,6 +24,8 @@
         height: 100vh;
         gap: 20px;
         top: 10%;
+        margin: 0;
+        padding: 0;
     }
     #Intro_CTA
     {
@@ -140,9 +142,18 @@
     }
     /*Responsiveness*/
     @media screen and (max-width: 600px) {
+        .Container_Content
+        {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        }
         #Landing_Image, #Intro_CTA
         {
             width: 100%;
+            display: flex;
         }
         #Name
         {
@@ -171,7 +182,6 @@
         .Button
         {
             font-size: 10vw;
-            width: 100%;
         }
         #About_Btn
         {
@@ -184,6 +194,15 @@
         }
     }
     @media screen and (min-width: 601px) and (max-width: 1000px){
+        .Container_Content
+        {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 50%;
+        }
         #Landing_Image, #Intro_CTA
         {
             width: 100%;
