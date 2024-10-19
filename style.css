@@ -2,7 +2,6 @@
     #Landing_Image, #Intro_CTA
     {
         flex: 1;
-        height: 100%;
         margin: 0;
         padding: 0;
     }
@@ -29,21 +28,22 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
         gap: 20px;
-        top: 10%;
+        top: 0%;
         margin: 0;
         padding: 0;
         overflow: hidden;
+        flex-wrap: wrap;
+        align-content: center;
     }
     #Intro_CTA
     {
         
         width: 50%;
+        bottom: 100%;
         float: right;
         text-align: center;
         align-items: center;
-        height: 100%;
         flex-direction: column;
         justify-content:center;
         display: flex;
@@ -72,6 +72,7 @@
     #Name h1
     {
         margin: auto;
+        padding-top: 10%;
         font-size: 80px;
         font-family: 'Raleway';
         font-weight:bolder;
@@ -267,7 +268,37 @@
         {
             top: 0;
         }
-        
+    }
+    @media screen and (min-width: 1001px) 
+    {
+        #Intro_CTA
+        {   
+            height: 100vh;
+            max-width: 100%;
+        }      
+        #Name
+        {
+            position: relative;
+            top: 0;
+        }
+        #Connect_Btn
+        {
+            position: relative;
+            top: -2%;
+        }
+        #About_Btn
+        {
+            position: relative;
+            top: -10%;
+        }
+        .Copyright p
+        {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            position: relative; 
+            top: 50px;
+        }
     }
 /*Landing Page End*/
 /*Contact Page Start*/
