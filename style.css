@@ -161,14 +161,17 @@
 .Container_Card 
 {
     display: block;
+    flex-direction: column;
+    align-items: center;
     max-width: 70vw;
-    max-height: 70vh;
+    height: auto;
     background-color: rgba(179, 173, 169, 1);
     text-align: center;
     margin: auto;
     position: relative;
     top: 5vh;
     border-radius: 41px;
+    padding: 20px;
 }
 
 #Contact_Page
@@ -196,6 +199,7 @@
     align-items: center;
     justify-content: center;
     position: inherit;
+    z-index: 1;
     top: -10vh;
     box-shadow: 0.5vw 1vh;
 }
@@ -212,6 +216,9 @@
     transition-duration: 1s;
     text-decoration: underline transparent;
 
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 .Contact_Redirect:hover
 {
@@ -220,19 +227,26 @@
     -webkit-transition-duration: 1s linear;
     transition-duration: 1s linear;
 }
+.Contact_Redirect_Container 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
 #Contact_About
 {
-    position: relative;
-    float: left;
-    width: 35%;
-    top: -35vh;
+    position: absolute;
+    left: -10%;
+    top: -10%;
+    transform: translateY(-50%);
 }
 #Contact_Payment
 {
-    position: relative;
-    float: right;
-    width: 35%;
-    top: -35vh;
+    position: absolute;
+    right: -10%;
+    top: -10%;
+    transform: translateY(-50%);
 }
 #Social
 {
@@ -247,13 +261,24 @@
     list-style: none;
     
 }
+.Icons
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 .Icons img
 {
+    width: 7vw;
+    height: auto;
+    min-width: 100px;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     -webkit-transition-property: transform;
     transition-property: transform;
-    
+    overflow: hidden;
 }
 .Icons img:hover
 {

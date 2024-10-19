@@ -7,6 +7,72 @@
         <!--Fonts-->
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Kurale' rel='stylesheet'>
+
+        <style>
+            .Copyright 
+            {
+              font-size: 16px;
+              position: relative;
+              padding-bottom: 10px;
+              display: inline-block;
+              border: 1px solid black 0;
+              text-align: center;
+            }
+            
+            @media (max-width: 768px) 
+            {
+              .Container_Card
+              {
+                height: auto;
+              }
+              .Copyright 
+              {
+                font-size: 14px;
+              }
+              .Container_Card 
+              {
+                max-width: 80vw;
+                max-height: 60vh;    
+              }
+              .Icons img
+              {
+                width: 10vw;
+                min-width: 80;
+              }
+              #Contact_Headshot
+              {
+                width: 200px;
+                height: 200px;
+              }
+            }
+            
+            @media (max-width: 480px) 
+            {
+              .Container_Card
+              {
+                height: auto;
+              }
+              .Copyright 
+              {
+                font-size: 12px;
+              }
+              .Container_Card 
+              {
+                max-width: 90vw;
+                max-height: 50vh;    
+              }
+              .Icons img
+              {
+                width: 15vw;
+                min-width: 60;
+              }
+              #Contact_Headshot
+              {
+                width: 200px;
+                height: 200px;
+              }
+            }
+        </style>
     </head>
     <body id="Contact_Page">
         <div class="Container_Card">
@@ -14,11 +80,13 @@
             <div id="Contact_Headshot">
                 <a href="http://sammywong.dev"><img src="https://media.istockphoto.com/id/1171169127/photo/headshot-of-cheerful-handsome-man-with-trendy-haircut-and-eyeglasses-isolated-on-gray.jpg?s=612x612&w=0&k=20&c=yqAKmCqnpP_T8M8I5VTKxecri1xutkXH7zfybnwVWPQ="></a>
             </div>
-            <div>
-                <a href="#" class="Contact_Redirect" id="Contact_About">About Me</a>
-            </div>
-            <div >
-                <a href="#" class="Contact_Redirect" id="Contact_Payment">Payment</a>
+            <div class="=Contact_Redirect_Container">
+                <div>
+                    <a href="#" class="Contact_Redirect" id="Contact_About">About Me</a>
+                </div>
+                <div >
+                    <a href="#" class="Contact_Redirect" id="Contact_Payment">Payment</a>
+                </div>
             </div>
             <div id="Social">
                 <ul class="Icons">
