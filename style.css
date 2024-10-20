@@ -306,3 +306,30 @@
 }
 
 /*Contact Page End*/
+
+/*Payment Page Start*/
+
+#Back_Bar
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+#Back_Bar h1
+{
+    font-size: 60px;
+    width: 7vw;
+    height: 7vh;
+    display: inline-block;
+    padding: 0px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(126, 159, 193, 1);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 10px;
+}
+    
+
+/*Payment Page End*/
