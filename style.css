@@ -166,12 +166,14 @@
     max-width: 70vw;
     min-height: 70vh;
     background-color: rgba(179, 173, 169, 1);
+    border: 5px solid black;
     text-align: center;
     margin: auto;
     position: relative;
     top: 5vh;
     border-radius: 41px;
     padding: 20px;
+    background-image: url("/Assets/pastel-color-gradient-background-design-for-banner-greeting-card-business-card-social-media-brochure-free-vector.jpg");
 }
 
 #Contact_Page
@@ -188,10 +190,13 @@
 }
 #Contact_Headshot
 {
-    width: 400px;
-    height: 400px;
+    width: 40vw;
+    max-width: 400px;
+    min-width: 200px;
+    min-height: 200px;
+    aspect-ratio: 1/1;
     border: 1px solid black;
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: hidden;
     object-fit: contain;
     margin:auto;
@@ -202,6 +207,12 @@
     z-index: 1;
     top: -10%;
     box-shadow: 0.5vw 1vh;
+}
+#contact_Headshot img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .Contact_Redirect
 {
@@ -253,7 +264,7 @@
 {
     display: inline-block;
     position: relative;
-    top: -100px;
+    top: 0%;
 }
 #Social li
 {
@@ -268,7 +279,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 20px;
-    overflow: hidden;
+    overflow: visible;
 }
 .Icons img
 {
