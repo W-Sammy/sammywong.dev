@@ -405,3 +405,35 @@
     width: 100%;
 }
 /*Payment Page End*/
+
+/*About Page Start*/
+#About_Page
+{
+    height: 4023px;
+}
+#Opening_Screen
+{
+    background-image: url(Assets/16x9\ photo.avif);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+
+}
+#Opening_Screen h1
+{
+
+    color: white;
+    font-size: 5vw;
+    display: inline-block;
+    margin: 5%
+}
+
+    
+/*About Page End*/
