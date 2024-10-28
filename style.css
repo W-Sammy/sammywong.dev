@@ -424,16 +424,75 @@
     display: flex;
     align-items: flex-end;
     justify-content: right;
-
+    text-decoration: underline;
+    color: white;
 }
 #Opening_Screen h1
 {
-
-    color: white;
+    font-family: 'Raleway';
     font-size: 5vw;
     display: inline-block;
     margin: 5%
-}
-
     
+}
+#Snapshot_Content
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Full_Body
+{
+    max-width: 20vw;
+    height: auto;
+    overflow: visible;
+    margin: 3%;
+    display: block;
+    object-fit: cover;
+    box-shadow: -2vw 3vh rgba(145, 138, 132, 1);
+}
+#Full_Body img
+{
+    
+    object-fit: contain;
+    background-position: center;
+    display: inline-block;
+    max-width: 100%;
+    min-height: 101%;
+   
+}
+#Introduction
+{
+    margin: 3%;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-size: 1.7vw;
+}
+#Relevant_Content
+{
+    background-color: rgba(214, 210, 207, 1);
+    height: 2576px;
+}
+.Headline 
+{
+    display:block;
+    text-align: center;
+    font-family: 'Kurale';
+    padding: 3%;
+    font-size: 2.5vw;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-thickness: 0.07em;
+}
+.Headline h2
+{
+    margin: 0;
+}
+#Education
+{
+
+}
 /*About Page End*/
