@@ -40,14 +40,14 @@
     {
         
         width: 50%;
-        bottom: 100%;
+        height: auto;
         float: right;
         text-align: center;
-        align-items: center;
-        flex-direction: column;
-        justify-content:center;
         display: flex;
-        vertical-align: baseline;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10%;
     }
     body, html
     {   
@@ -71,7 +71,6 @@
         padding-top: 0px;
         top: 15%;
         overflow: hidden;
-        position: relative;
     }
     #Name h1
     {
@@ -80,7 +79,6 @@
         font-size: 80px;
         font-family: 'Raleway';
         font-weight:bolder;
-        position: relative;
         border: 2px solid black 0 ;
     }
     #Labels
@@ -89,7 +87,6 @@
         height: 25%;
         overflow: visible;
         border: 2px solid black 0;
-        position: relative;
         padding: 0px 10px 0px 10px;
     }
     #Labels li 
@@ -123,7 +120,8 @@
     /*Buttons*/
     .Button
     {
-        width: 270px;
+        max-width: 25vw;
+        height: 
         font-family: 'kurale';
         font-size: 34px;
         padding: 10px;
@@ -138,8 +136,6 @@
         -webkit-transition-property: transform;
         transition-property: transform;
         display: inline-block;
-        position: relative;
-        gap: 100px;
     }
     .Button:hover
     {
@@ -148,20 +144,6 @@
         background-color: rgba(79, 195, 137, 1);
         -webkit-transition: background-color 0.3s linear;
         transition: background-color 0.3s linear;
-    }
-    #Connect_Btn
-    {   
-        position: relative;
-        top: 10%;
-        display: block;
-        padding: 5%;
-    }
-    #About_Btn
-    {
-        position: relative;
-        top: -5%;
-        padding: 5%;
-        display: block;
     }
     
 /*Landing Page End*/
@@ -407,10 +389,7 @@
 /*Payment Page End*/
 
 /*About Page Start*/
-#About_Page
-{
-    height: 4023px;
-}
+
 #Opening_Screen
 {
     background-image: url(Assets/16x9\ photo.avif);    
@@ -474,7 +453,6 @@
 #Relevant_Content
 {
     background-color: rgba(214, 210, 207, 1);
-    height: 2576px;
 }
 .Headline 
 {
@@ -493,6 +471,100 @@
 }
 #Education
 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#CSUS
+{
+    max-width: 20vw;
+    height: auto;
+    overflow: visible;
+    margin: 3%;
+    display: block;
+    object-fit: cover;
+    box-shadow: 2vw 3vh rgba(145, 138, 132, 1);
+}
+#CSUS img
+{
+    object-fit: contain;
+    background-position: center;
+    display: inline-block;
+    max-width: 100%;
+    min-height: 105%;
+}
+#Education_Description
+{
+    margin: 3%;
+    font-family: 'Raleway';
+    font-size: 1.5vw;
+    display: table;
+    justify-content: center;
+}
+#Education_Description p
+{
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+    display: table-cell;
+}
+#Work
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Raleway';
+    font-size: 1.5vw;
 
+}
+#Projects
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+.Activity_Cards
+{
+    background-color: rgba(68, 68, 68, 1);
+    border-radius: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    max-width: 30%;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.Activity_Cards:hover
+{
+    background-color: rgb(247, 247, 229);
+    color: black;
+    -webkit-transition-duration: background-color linear;
+    transition-duration: background-color linear;
+}
+.Activity_Cards h3, p
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Raleway';
+    font-size: 1.5vw;
+}
+.Footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    padding-top: 1%;
 }
 /*About Page End*/
