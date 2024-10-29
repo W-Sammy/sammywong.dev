@@ -107,7 +107,7 @@
     {
         font-size: 1vw;
         width: 100%;
-        text-align: center;
+        text-align: ce;
     }
 
     /*Buttons*/
@@ -387,10 +387,10 @@
     background-image: url(Assets/16x9\ photo.avif);    
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    width: 100%;
-    height: 100vh;
+    aspect-ratio: 1/1;
+    background-size: 100% 100%;
+
     object-fit: contain;
     display: flex;
     align-items: flex-end;
@@ -418,7 +418,7 @@
 #Full_Body
 {
     max-width: 20vw;
-    height: auto;
+    height: 100%;
     overflow: visible;
     margin: 3%;
     display: block;
@@ -430,10 +430,9 @@
     
     object-fit: contain;
     background-position: center;
-    display: inline-block;
+    display: block;
     max-width: 100%;
-    min-height: 101%;
-   
+    height: auto;
 }
 #Introduction
 {
@@ -473,7 +472,7 @@
 #CSUS
 {
     max-width: 20vw;
-    height: auto;
+    height: 100%;
     overflow: visible;
     margin: 3%;
     display: block;
@@ -484,9 +483,9 @@
 {
     object-fit: contain;
     background-position: center;
-    display: inline-block;
+    display: block;
     max-width: 100%;
-    min-height: 105%;
+    height: auto;
 }
 #Education_Description
 {
