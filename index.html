@@ -10,10 +10,9 @@
         <!--Fonts-->
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Kurale' rel='stylesheet'>
-
         <style>
             /*Responsiveness*/
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 1000px) {
                 .Container_Content
                 {
                 display: flex;
@@ -53,110 +52,20 @@
                 }
                 .Button
                 {
-                    font-size: 9vw;
-                }
-                #About_Btn
-                {
-                    position: relative;
-                    top: 5%;
+                    width: 50vw;
+                    font-size: 6vw;
+                    
                 }
                 #Container_Content
                 {
                     width: 100%;
                 }
-            }
-            @media screen and (min-width: 601px) and (max-width: 1000px){
-                .Container_Content
-                {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                width: 50%;
-                }
-                #Landing_Image, #Intro_CTA
-                {
-                    width: 100%;
-                    min-height: 100vh;
-                    margin: 0;
-                    padding: 0;
-                }
-                #Landing_Image img
-                {
-                    width: 100%;
-                    height: 100%;
-                    display: block;
-                    object-fit: cover;
-                }
-                #Name
-                {
-                    top: 5%;
-                    overflow:visible;
-                    width: 95%;
-                    padding-bottom: 5%;
-                }
-                #Name h1
-                {
-                    font-size: 10vw;
-                    margin: 0;
-                    text-decoration: underline;
-                }
-                #Labels
-                {
-                    padding-bottom: 2%;
-                    width: 100%;
-                    position: relative;
-                    top: 5%;
-                }
-                #Labels li
-                {
-                    font-size: 5vw;
-                    margin-left: 2%;
-                    margin-right: 2%;
-                }
-                .Button
-                {
-                    font-size: 6vw;
-                    width: 90%;
-                    position: relative;
-                    flex-direction: column;
-                }
-                #About_Btn
-                {
-                    top: 0;
-                }
-            }
-            @media screen and (min-width: 1001px) 
-            {
-                #Intro_CTA
-                {   
-                    height: 100vh;
-                    max-width: 100%;
-                }      
-                #Name
-                {
-                    position: relative;
-                    top: 0;
-                }
-                #Connect_Btn
-                {
-                    position: relative;
-                    top: -2%;
-                }
-                #About_Btn
-                {
-                    position: relative;
-                    top: -10%;
-                }
                 .Copyright p
                 {
-                    display: inline-block;
-                    padding: 0;
-                    margin: 0;
-                    position: relative; 
-                    top: 50px;
+                    font-size: 3vw;
                 }
             }
+
         </style>
     </head>
     <body>
@@ -166,7 +75,7 @@
         </section>
         <section id="Intro_CTA" >
             <div id="Name" >
-                <h1 id="Sam">Sammy Wong</h1>
+                <h1>Sammy Wong</h1>
                 
             </div>
             <div id="Labels">
@@ -183,7 +92,7 @@
                 <a href="contact.html" class="Button">Connect w/ Me</a> 
             </div>
             <div id="About_Btn" >
-                <a href="#" class="Button">About Me</a> 
+                <a href="about.html" class="Button">About Me</a> 
             </div>
             <div class="Copyright">
                 <p>Copyright &copy; Sammy Wong</p>

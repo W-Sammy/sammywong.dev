@@ -47,7 +47,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 10%;
+        gap: 2vw;
     }
     body, html
     {   
@@ -76,7 +76,7 @@
     {
         margin: auto;
         padding-top: 10%;
-        font-size: 80px;
+        font-size: 4vw;
         font-family: 'Raleway';
         font-weight:bolder;
         border: 2px solid black 0 ;
@@ -92,7 +92,7 @@
     #Labels li 
     {
         margin: 5px 0;
-        font-size: 30px;
+        font-size: 2vw;
         font-family: 'Raleway';
         font-style: italic;
     }
@@ -103,27 +103,19 @@
         text-align: center;
         padding: 0px;
     }
-    .Copyright p
+    .Copyright 
     {
-        font-size: 16px;
-        position: relative;
-        padding-bottom: 10px;
-        display: inline-block;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid black 0;
+        font-size: 1vw;
+        width: 100%;
         text-align: center;
     }
 
     /*Buttons*/
     .Button
     {
-        max-width: 25vw;
-        height: 
+        min-width: 25vw;
         font-family: 'kurale';
-        font-size: 34px;
+        font-size: 2vw;
         padding: 10px;
         border: 1px solid black;
         border-radius: 65px;
@@ -518,6 +510,10 @@
     font-family: 'Raleway';
     font-size: 1.5vw;
 
+}
+.Work_Description
+{
+    padding-left: 10%;
 }
 #Projects
 {
