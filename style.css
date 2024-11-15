@@ -12,6 +12,8 @@
         float: left;
         height: 100%;
         overflow: hidden;
+        aspect-ratio: 1/4;
+
         
     }
     #Landing_Image img
@@ -377,11 +379,11 @@
 
 #Opening_Screen
 {
-    background-image: url(Assets/16x9\ photo.avif);    
+    background-image: url(Assets/freddy-castro-u3ajSXhZM_U-unsplash.jpg);    
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    aspect-ratio: 1/1;
+    aspect-ratio: 2/1;
     background-size: 100% 100%;
 
     object-fit: contain;
